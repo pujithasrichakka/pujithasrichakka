@@ -1,0 +1,35 @@
+[9:17 PM, 11/29/2022] Puji: print('write a program to print student is pass or fail')
+sno=int(input('enter sno:'))
+sname=input('enter student name:')
+group=input('enter group name:')
+S1=int(input('enter statistics marks:'))
+S2=int(input('enter python marks'))
+S3=int(input('enter DBMS marks:'))
+total=S1+S2+S3
+avg=total//3
+print('Sno:',sno)
+print('Name:',sname)
+print('Group:',group)
+print('Total:',total)
+print('Result:')
+if S1>=35:
+    print('pass')
+elif S2>=35:
+    print('pass')
+elif S3>=35:
+    print('pass')
+else:
+    print('fail')
+[9:17 PM, 11/29/2022] Puji: write a program to print student is pass or fail
+enter sno:214117156040
+enter student name:B.PRIYANKA
+enter group name:DATA SCIENCE
+enter statistics marks:60
+enter python marks68
+enter DBMS marks:69
+Sno: 214117156040
+Name: B.PRIYANKA
+Group: DATA SCIENCE
+Total: 197
+Result:
+pass
