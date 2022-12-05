@@ -1,0 +1,22 @@
+
+n=int(input("Enter how numbers your want:"))
+num=int(input("Enter the number ")) 
+largest=num
+smallest=num
+i=1
+while(i<n):
+    num=int(input("Enter any number "))
+    if(num>largest):
+        largest=num 
+    i=i+1
+if(num<smallest):
+    smallest=num
+dif=largest-smallest
+print(dif)
+
+OUTPUT:
+    Enter how numbers your want:3
+Enter the number 6
+Enter any number 10
+Enter any number 12
+6
