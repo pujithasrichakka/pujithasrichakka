@@ -1,0 +1,12 @@
+n=int(input('Enter the number:'))
+a=-1
+b=1
+for i in range(1,n):
+    c=a+b
+    a=b
+    b=c
+    print(c,end=' ')
+
+OUTPUT:
+    Enter the number:5
+    0 1 1 2
