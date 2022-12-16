@@ -1,0 +1,10 @@
+str=input("Enter any string:")                 
+c=0
+l=len(str)
+for i in range(0,l):
+     if str[i].isalpha()==1:
+         c=c+1
+print('Number of characters of string:',c)
+print('Convert from lower to upper:',str.upper())
+print('Convert from upper to lower:',str.lower())
+print('Convert from lower to upper and upper to lower:',str.swapcase())
