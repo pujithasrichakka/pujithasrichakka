@@ -1,0 +1,18 @@
+n=int(input('Enter the number:'))
+pd=n
+rev=0
+while(n>0):
+    rev=rev*10+n%10
+    n=n//10
+if (rev==pd):
+    print('Palindrome')
+else:
+    print('Not Palindrome')
+
+OUTPUT1:
+Enter the number:242
+Palindrome
+
+OUTPUT2:
+Enter the number:24
+Not Palindrome
